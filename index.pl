@@ -1,18 +1,34 @@
- #!/usr/bin/perl -w  
- use Tk;
- use strict;
+#!/usr/bin/perl -w  use Tk;
+use Tk;
+use strict;
 
- # Creating new window object
- my $mw = MainWindow->new;
+my $mw = MainWindow -> new();
 
- # Text element for testing purposes
- $mw->Label(-text => 'Hello, world!')->pack;
+$mw -> Label(-text => 
+	"Hello, world! This is going to be the end of the world!"
+) -> pack;
 
- # Quit button
- $mw->Button(
- 	-text    => 'Quit',
- 	-command => sub { exit },
- )->pack;
+$mw -> Label(-text => 
+	"Ciao a tutti! Questa is la mia prima interfaccia graphica con il linguaggio perl!"
+) -> pack;
 
- # Main loop always at the end
- MainLoop;
+$mw -> Frame(
+	-height => 100,
+	-width => 100,
+) -> pack;
+
+$mw -> Button(
+	-text     => 'NEW GAME',
+	-height => 3,
+	-width => 25,
+	-command  => sub { exit },
+) -> pack;
+
+$mw -> Button(
+	-text     => 'Quit',
+	-height => 3,
+	-width => 3,
+	-command  => sub { exit },
+) -> pack;
+
+MainLoop();
