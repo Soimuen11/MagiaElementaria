@@ -5,9 +5,6 @@
 
 ## SMART goals
 
-+ Time limit: 1 month
-	- From [date] to [date]
-
 + Make: 
 	- A logo for the app
 	- Write documentation
