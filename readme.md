@@ -1,15 +1,28 @@
-# Magia Elementaria: The Lost Shrine
+# Magia Elementaria: The Lost Castle
 
-+ Perl
+## Table Of Contents
+
+<!-- vim-markdown-toc GFM -->
+
+* [Features](#features)
+* [To-dos](#to-dos)
+* [Synopsys](#synopsys)
+
+<!-- vim-markdown-toc -->
+
+## Features
+
++ Written in Perl
 + Plain text files for the story
 
 ## To-dos
 
 Functions that need be written:
-1. One to save the game.
+1. One to autosave the game at certain points in the code (opens save.txt and
+   changes values of variables).
 2. One which displays available saved games files and allows you
    to choose amongst them.
-3. One to keep tracks of the items and the amound of gold which the player
+3. One to keep tracks of the items and the amount of gold which the player
    posseses.
 
 ## Synopsys
