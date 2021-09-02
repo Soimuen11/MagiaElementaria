@@ -20,7 +20,8 @@ sub startMenu(){
 		case 1 {
 			my $saveFile = "./save.txt";
 			print "Travel safe, experienced adventured!\n";
-			# if save.txt exists, print its content and save it in variable name
+			# if save file exists, print its content and save it in variable
+			# playerName
 			if (-e $saveFile){
 				my $playerName = `cat $saveFile`;
 				print "Player name: $playerName";
@@ -28,12 +29,16 @@ sub startMenu(){
 		}
 		# Option New Game
 		case 2 {
-			print "A new adventure always sounds exciting.\n";
+			print "A new adventure always sounds exciting, uh?\n";
 			print "Could you please tell me your name:\n";
 			my $playerName = setPlayerName();
 			print "Welcome $playerName";
 		}
-		else {print "This is not a valid option";}
+		# When player enters invalid input (letters, characters, numbers that
+		# aren't 1 or 2
+		else { 
+			print "This is not a valid option\n"; 
+		}
 	}
 }
 
@@ -42,7 +47,9 @@ sub setPlayerName(){
 	open (FH, ">", "save.txt");
 	my $playerName = <>;
 	print FH $playerName;
-	close(FH) or "Couldn't close the file";
+	close(FH);
 	return $playerName;
 }
+
+### Return true ###
 1;
