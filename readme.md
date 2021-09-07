@@ -26,7 +26,7 @@ Functions that need be written:
    posseses.
 
 ## Synopsys
-You are a character named [name], of age [age] and sex [sex]. You begin
+You are a character named [name], of age [age] and gender [gender]. You begin
 the story in a room of a castle. In this room, there are items which you
 can choose to pick up or not. Then you can move on to the next room and
 start talking with other characters.
