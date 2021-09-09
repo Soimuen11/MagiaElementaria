@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-### Game ###
-sub game(){
+### Chapter 1 ###
+sub chapter1(){
 	# Defining main variables
 	my $generalLocation = "The Lost Castle";
 	my $location = "room 1";
@@ -11,6 +11,9 @@ sub game(){
 
 	# Find a sword, a shield , an armor and 3000 gold
 	my @room1ChestContent = ("1 sword\n", "1 shield\n", "1 armor\n", "3000 gold\n");
+	print "###########################################\n";
+	print "################ Chapter 1 ################\n";
+	print "###########################################\n";
 	print "You are in $location of $generalLocation!\n";
 
 	# Prompt the user to know if they wanna open the chest

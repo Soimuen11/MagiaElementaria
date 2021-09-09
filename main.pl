@@ -4,14 +4,14 @@ use warnings;
 # Make UTF-8 default encoding
 use open qw( :encoding(UTF-8) :std );
 use Switch;
-require './game.pl';
+require './chapter1.pl';
 require './gameOver.pl';
 require './startMenu.pl';
 
 ### Main function ###
 sub main(){
 	startMenu();
-	game();
+	chapter1();
 }
 
 ### Function Calls ###
