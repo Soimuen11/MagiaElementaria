@@ -4,7 +4,7 @@ use warnings;
 # Make UTF-8 default encoding
 use open qw( :encoding(UTF-8) :std );
 use Switch;
-require './chapter1.pl';
+require './chapters/chapter1.pl';
 require './gameOver.pl';
 require './startMenu.pl';
 
