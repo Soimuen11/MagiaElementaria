@@ -1,28 +1,17 @@
-# Magia Elementaria: The Lost Castle
+# The Lost Castle
 
 ## Table Of Contents
 
-<!-- vim-markdown-toc GFM -->
-
 * [Features](#features)
-* [To-dos](#to-dos)
 * [Synopsys](#synopsys)
 
-<!-- vim-markdown-toc -->
+## To-Be-Added Features
 
-## Features
-
-+ Written in Perl
-+ Plain text files for the story
-
-## To-dos
-
-Functions that need be written:
-1. One to autosave the game at certain points in the code (opens save.txt and
+1. Function to autosave the game at certain points in the code (opens save.txt and
    changes values of variables).
-2. One which displays available saved games files and allows you
+2. Function which displays available saved games files and allows you
    to choose amongst them.
-3. One to keep tracks of the items and the amount of gold which the player
+3. Function to keep track of the items and the amount of gold which the player
    posseses.
 
 ## Synopsys
