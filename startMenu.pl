@@ -7,7 +7,9 @@ use Switch;
 
 ### Defining Main Game Menu ###
 sub startMenu(){
-	print "Welcome to the fantasy world of Magia Elementaria!\n";
+	print "####################################################\n";
+	print "########## Welcome To The Lost Castle!##############\n";
+	print "####################################################\n";
 	# When a player enters the game, they can either create a new game or load
 	# a save file
 	my @options = ("1) Load Game\n", "2) New Game\n");
